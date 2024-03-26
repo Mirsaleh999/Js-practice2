@@ -94,20 +94,42 @@
 
 
 // 11.
-function masBeraber(array1, array2)
-{
-    if (array1.length !== array2.length) {
-        return false;
-    }
-    return array1.every((element, index) => element === array2[index]);
-}
+// function masBeraber(array1, array2)
+// {
+//     if (array1.length !== array2.length) {
+//         return false;
+//     }
+//     return array1.every((element, index) => element === array2[index]);
+// }
 
-let array1 = [1, 2, 3, 4, 5];
-let array2 = [1, 2, 3, 4, 5];
-console.log(masBeraber(array1, array2)); 
+// let array1 = [1, 2, 3, 4, 5];
+// let array2 = [1, 2, 3, 4, 5];
+// console.log(masBeraber(array1, array2)); 
 
-let array3 = [1, 2, 3, 4, 5];
-let array4 = [1, 2, 3, 4, 6];
-console.log(masBeraber(array3, array4)); 
+// let array3 = [1, 2, 3, 4, 5];
+// let array4 = [1, 2, 3, 4, 6];
+// console.log(masBeraber(array3, array4)); 
+
+// 13.
+// function replaceUniversity(text) 
+// {
+//     return text.replace(/ADNA/g, 'ADNSU');
+// }
+// console.log(replaceUniversity('ADNSU'));
 
 
+// 15.
+    // function reqemlerinCemi(sayi) 
+    // {
+    //     var birinciReqem = Math.floor(sayi / 100);
+    //     var ikinciReqem = Math.floor((sayi % 100) / 10);
+    //     var ucuncuReqem = sayi % 10;
+    //     var cem = birinciReqem + ikinciReqem + ucuncuReqem;
+        
+    //     return cem;
+    // }
+    
+    // var sayi = 987;
+    // console.log("Ədədin rəqəmləri cəmi:", reqemlerinCemi(sayi));
+    
+    
